@@ -3,60 +3,72 @@
 \usepackage{roboto}
 \usepackage{xcolor}
 \usepackage{colortbl}
+\usepackage{graphicx}
 
 \definecolor{lightgrey}{HTML}{ECECEC}
 
 \begin{document}
 
 \begin{center}
-    {\fontsize{28}{36}\selectfont\bfseries MVTR Adventure Bike Rally}
+    {\fontsize{28}{36}\selectfont\bfseries DRAFT: MVTR Adventure Bike Rally Difficulty}
 \end{center}
 
 \vspace{1em}
 
-Adventure rides in general attract riders of varying skill levels and bike types. To help riders understand the difficulty of our routes, we have created a rating system based on factors such as road conditions and obstacles. Additionally, we want to emphasize the importance of physical fitness in our rides, as they can take up to 8 hours and include sustained levels of difficulty.
-
-\vspace{1em}
-
 \noindent
-\begin{minipage}[t]{0.45\linewidth}
-    \textbf{Important Information}
-    
-    \vspace{0.5em}
-    
-    50:50 tires should be considered a minimum for rides. None of our routes are easy, and riding street-oriented tires just puts the rest of the group at risk of unfortunate delays.
-    
-    \vspace{1.5em}
-    
-    \noindent Physical Fitness plays a significant role in rides. Rides take up to 8 hours and can have sustained levels of difficulty. If you find yourself on a route that challenges your skills, we are never far from any exit route.
-\end{minipage}
+\begin{minipage}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{temp_logo.png}
+\end{minipage}%
+\begin{minipage}{0.5\linewidth}
+    \setlength{\fboxsep}{10pt}
+    \setlength{\fboxrule}{2pt}
+    \fcolorbox{black}{white}{%
+        \begin{minipage}[t]{\linewidth}
+            \textbf{Important Information}
 
-\hfill
+            \vspace{0.5em}
+            \textbf{Tires} \\
+            50:50 tires should be considered a minimum for rides. None of our routes are easy, and riding street-oriented tires just puts the rest of the group at risk of unfortunate delays.
 
-\begin{minipage}[t]{0.45\linewidth}
+            \vspace{1.5em}
+
+            \textbf{Physical Fitness} \\
+            \noindent Physical Fitness plays a significant role in adventure riding. Rides take up to 8 hours and can have sustained levels of difficulty. If you find yourself on a route that challenges your skills, we are never far from any exit route. Weather can also play a significant role in the difficulty of a route.
+        \end{minipage}%
+    }
+\end{minipage}%
+
+\hfill%
+
+\begin{minipage}[t]{0.9\linewidth}
     \textbf{Difficulty Levels}
-    
+
+    Consider that the difficulty of a route is not just about the terrain, but also the weather, the group, and your own skill level. The difficulty level is a guide to help you choose an adventure that is appropriate for your skills and abilities. If you are unsure, ask a ride leader for advice.
+    \vspace{0.2em}
+    The routes are laid out with an \textit{choose your own adventure} style in mind. The guided groups will roughly follow one of the levels (you always have the option of skipping Hero sections, even in the guided groups).
     \vspace{0.5em}
-    
-    \begin{tabular}{|c|p{11cm}|}
-    \hline
-    \textbf{Level} & \textbf{Description} \\
-    \hline
-    1 & Rough paved roads with broken bits and potholes. Well maintained gravel roads. \\
-    \hline
-    2 & Rough resource roads. Smooth double track. Small and infrequent trail obstacles. Patches of soft gravel, shallow sand, or small surface mud. All hills are gentle. \\
-    \hline
-    3 & Doubletrack with routine modest features such as roots, ledges, rocks, and soft patches. Singletrack with infrequent obstacles. Some steep hills, but short in duration. \\
-    \hline
-    4 & Single and double track with frequent and potentially sizable features such as roots, ledges, rocks, and soft patches. Steep hills can be sustained and may have unforgiving transitions. Corners may be tight and unforgiving. \\
-    \hline
-    \rowcolor{lightgrey}
-    5 & Challenging singletrack for dirt bikers, so yeah, it’s really tough for anything bigger. Make sure you can ride a few Level 4 routes before trying a Level 5. \\
-    \hline
-    \rowcolor{lightgrey}
-    6 & Extremely challenging routes, even for the very best riders on smaller adventure bikes. Unavoidable large obstacles requiring significant commitment and potentially some nasty exposure. Train hard to possibly do one someday so you can tick that box, and never have to do another again! \\
-    \hline
-    \end{tabular}
+
+    \begin{center}
+        \begin{tabular}{|c|p{12cm}|}
+            \hline
+            \textbf{Level} & \textbf{Description}                                                                                                                                                                                                                                           \\
+            \hline
+            I              & Rough paved roads with broken bits and potholes. Well maintained gravel roads.                                                                                                                                                                                 \\
+            \hline
+            II             & Rough resource roads. Smooth double track. Small and infrequent trail obstacles. Patches of soft gravel, shallow sand, or small surface mud. All hills are gentle.                                                                                             \\
+            \hline
+            III            & Doubletrack with routine modest features such as roots, ledges, rocks, and soft patches. Singletrack with infrequent obstacles. Some steep hills, but short in duration.                                                                                       \\
+            \hline
+            IV             & Single and double track with frequent and potentially sizable features such as roots, ledges, rocks, and soft patches. Steep hills can be sustained and may have unforgiving transitions. Corners may be tight and unforgiving. Mud holes and water crossings. \\
+            \hline
+            \rowcolor{lightgrey}
+            5              & Challenging singletrack for dirt bikers, so yeah, it’s really tough for anything bigger. Make sure you can ride a few Level 4 routes before trying a Level 5.                                                                                                  \\
+            \hline
+            % \rowcolor{lightgrey}
+            % 6              & Extremely challenging routes, even for the very best riders on smaller adventure bikes. Unavoidable large obstacles requiring significant commitment and potentially some nasty exposure. Train hard to possibly do one someday so you can tick that box, and never have to do another again! \\
+            % \hline
+        \end{tabular}
+    \end{center}
 \end{minipage}
 
 \end{document}
