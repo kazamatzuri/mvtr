@@ -1,0 +1,2 @@
+Difficulty levels used for the MVTR Adventure Rally (CF Charity ride). 
+Roughly based on [The Adventure Bike Gathering difficulties](https://www.theadventurebikegathering.com/wp-content/uploads/2022/03/Adventure-Bike-Difficulty-Ratings-March-22-WEB.pdf)
