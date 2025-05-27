@@ -6,12 +6,20 @@
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 % Header
-\begin{center}
+\noindent
+\begin{minipage}[t]{0.65\textwidth}
+    \vspace{0pt} % Anchor to top
     \textbf{\Large\MakeUppercase{Rider Meetup Board}}\\[0.5em]
     \large I'm good at GPS and willing to LEAD a group
-\end{center}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{0pt} % Anchor to top
+    \raggedleft
+    \includegraphics[height=3.5cm]{Adv_rally_logo 2025.png}
+\end{minipage}
 
-\vspace{1em}
+% \vspace{1em}
 
 % Day label - uses \meetupday command defined in wrapper file
 \textbf{\large \meetupday}
@@ -31,7 +39,7 @@
 \vspace{1em}
 
 % Leave at time
-\textbf{\large Leave at:}
+\textbf{\large Name: \hfill Leave at: \hspace{1em}}
 
 \vspace{1em}
 
