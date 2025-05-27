@@ -1,0 +1,77 @@
+% This is the main template - do not compile directly
+% Use saturday.tex or sunday.tex instead
+
+% Define column types
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+% Header
+\begin{center}
+    \textbf{\Large\MakeUppercase{Rider Meetup Board}}\\[0.5em]
+    \large I'm good at GPS and willing to LEAD a group
+\end{center}
+
+\vspace{1em}
+
+% Day label - uses \meetupday command defined in wrapper file
+\textbf{\large \meetupday}
+
+\vspace{1em}
+
+% Group information
+\begin{minipage}[t]{0.48\textwidth}
+    \textbf{\large Group \#\_\_}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+    \raggedleft
+    \textbf{easy/medium/hard/expert} (circle one)
+\end{minipage}
+
+\vspace{1em}
+
+% Leave at time
+\textbf{\large Leave at:}
+
+\vspace{1em}
+
+% Table
+\begin{tabular}{|C{0.05\textwidth}|L{0.35\textwidth}|C{0.3\textwidth}|C{0.25\textwidth}|}
+\hline
+\rowcolor{gray!10}
+\textbf{\#} & \textbf{Name} & \textbf{Phone/Contact} & \textbf{Notes} \\
+\hline
+1 & & & \\[20pt]
+\hline
+2 & & & \\[20pt]
+\hline
+3 & & & \\[20pt]
+\hline
+4 & & & \\[20pt]
+\hline
+5 & & & \\[20pt]
+\hline
+6 & & & \\[20pt]
+\hline
+7 & & & \\[20pt]
+\hline
+8 & & & \\[20pt]
+\hline
+9 & & & \\[20pt]
+\hline
+10 & & & \\[20pt]
+\hline
+11 & & & \\[20pt]
+\hline
+12 & & & \\[20pt]
+\hline
+13 & & & \\[20pt]
+\hline
+14 & & & \\[20pt]
+\hline
+\end{tabular}
+
+\vspace{1em}
+
+% Footer note
+*Feel free to limit the number of riders you are willing to lead. 
